@@ -1,2 +1,27 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+FUNCTION consecutiveSubstrings(string)
+    // Initialize empty array to store results
+    CREATE empty array called result
+    
+    // Outer loop: iterate through each starting position
+    FOR i FROM 0 TO length of string - 1
+        
+        // Inner loop: iterate through each ending position
+        FOR j FROM i + 1 TO length of string
+            
+            // Extract substring from position i to position j
+            GET substring from string starting at i, ending at j
+            
+            // Add substring to results
+            ADD substring to result array
+            
+        END FOR
+        
+    END FOR
+    
+    // Return all collected substrings
+    RETURN result array
+    
+END FUNCTION
